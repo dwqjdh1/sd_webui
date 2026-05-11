@@ -11,12 +11,7 @@
 ```
 ├── webui-user.bat              # WebUI启动配置文件
 ├── prompt_automation.py        # BLIP提示词自动化脚本
-├── setup_and_verify.py         # 环境检查脚本
-├── generate_report.py          # 实训报告生成脚本
-├── 基于StableDiffusion的图文风格化生成_课程报告.md  # 课程报告
-├── 实训报告_基于StableDiffusion的图文风格化生成.docx # Word格式实训报告
-├── SD-WebUI部署报告.md         # 部署过程记录
-└── ControlNet模型下载指南.md    # ControlNet模型下载指南
+└── setup_and_verify.py         # 环境检查脚本
 ```
 
 ## 部署步骤
@@ -49,7 +44,7 @@ git clone https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN.gi
 ### 3. 下载模型
 
 - **主模型**: 放入 `models/Stable-diffusion/` 或通过 `--ckpt-dir` 指定外部目录
-- **ControlNet模型**: 放入 `models/ControlNet/`（参考 ControlNet模型下载指南.md）
+- **ControlNet模型**: 放入 `models/ControlNet/`（从 Civitai 或 HuggingFace 下载 SDXL 版本）
 - **ESRGAN超分模型**: 自动下载或手动放入 `models/ESRGAN/`
 
 ### 4. 启动 WebUI
