@@ -1,0 +1,22 @@
+# WebUI本体（需要单独克隆）
+stable-diffusion-webui/
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+
+# Claude相关
+.claude/
